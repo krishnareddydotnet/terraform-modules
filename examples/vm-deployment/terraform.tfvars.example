@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+subscription_id      = "00000000-0000-0000-0000-000000000000"
+location             = "centralindia"
+project              = "tfmodvm"
+environment          = "dev"
+owner                = "krishna"
+cost_center          = "practice"
+admin_ssh_public_key = "ssh-ed25519 AAAA...replace-with-your-public-key... krishna"
+bastion_enabled      = false

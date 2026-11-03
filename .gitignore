@@ -42,3 +42,9 @@ terraform.rc
 # Optional: ignore plan files saved before destroying Terraform configuration
 # Uncomment the line below if you want to ignore planout files.
 # planout
+# Saved plan files (a saved plan can contain secrets)
+*.tfplan
+tfplan
+
+# Real variable files stay local. Only *.tfvars.example is committed.
+# .terraform.lock.hcl is NOT ignored: commit it so everyone uses the same provider build.
